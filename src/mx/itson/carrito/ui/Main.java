@@ -5,8 +5,10 @@
 package mx.itson.carrito.ui;
 
 import java.util.Scanner;
+import java.util.Set;
 import mx.itson.carrito.entidades.Carro;
 import mx.itson.carrito.enums.TipoMotor;
+import mx.itson.carrito.enums.TipoTransmisión;
 
 /**
  *
@@ -31,6 +33,8 @@ public class Main {
         bmw.setAnio(2021);
         bmw.setKilometraje(10000);
         bmw.setTipoMotor(TipoMotor.HÍBRIDO);
+        bmw.setTipoTransmisión(TipoTransmisión.AUTOMATICO);
+
                 
         
         //Invocamos al método contenido en la clase Carro
